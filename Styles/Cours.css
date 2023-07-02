@@ -126,51 +126,69 @@ ul li:hover ul
     margin: 0 auto;
 }
 
-.welcome
+.cours
 {
     margin: 0px;
     height: 300px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    background-image: url("../Assets/wlcm.jpg");
-    background-attachment: fixed;
-    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.77), transparent), url("../Assets/L2_one.jpg");
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
     background-size: cover;
+    padding-right: 5px !important;
     font-size: 1.2em;
+
 }
 
-.welcome p
+.cours p
 {
     margin: 0px;
-    padding: 10px;
+    padding: 10px 15px 5px 15px;
     align-items: center;
     justify-content: center;
     color: #f2f2d4;
     display: flex;
-    font-size: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
 }
-
-
-.goal
+.cours center
 {
-    background-color: #112758;
-    color: #f2f2d4;
-    font-family: 'Times New Roman', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: -40px;
-    border-radius: 30px 30px 0px 0px;
-    height: auto;
-    width: 80vw;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    font-size: 1.1em;
+    padding: 20px;
+    overflow-y: scroll;
 }
+.cours center::-webkit-scrollbar {
+    width: 7px;
+}
+.cours center::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+    margin-bottom: 4px;
+}
+.cours center::-webkit-scrollbar-thumb {
+    background-color: #112758;
+    border-radius: 10px;
+    border: 1px solid #f2f2d4;
+    }
+::-webkit-scrollbar-track-piece {
+    background: transparent none; 	
+    border: solid 6px transparent; 	
+    border-right-width: 8px; 	
+    margin: 4px;	
+    -webkit-box-shadow: inset 1px 1px 0 0 rgb(255, 255, 255), inset -1px -1px 0 0 rgb(255, 255, 255);
+    }
+.cours p
+{
+align-items: center;
+justify-content: center;
+}
+.cours p .one
+{
+    margin-top: 15px;
+}
+
 
 
 footer
@@ -199,7 +217,6 @@ footer ul li a:hover
     color: #f2f2d4;
 }
 
-/*Pour diviser Like I want*/
 footer ul
 {
     display: grid;
@@ -242,13 +259,26 @@ footer .menu-con
     height: auto;
     width: auto;
 }
+.headie_footer{
+    height: 60px;
+    background-color: #112758;
+    display: flex;
+    margin: 0px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border-radius: 15px 15px 0px 0px;
+} 
 
 @media screen and (max-width: 780px)
 {
-    .headie{
+    .headie
+    {
         height: 50px;
     }
-    .headie div{
+    .headie div
+    {
         font-size: auto;
     }
     div .flag
@@ -260,23 +290,70 @@ footer .menu-con
     {
         min-height: 60px;
     }
-    .navy li a {
+    .navy li a
+    {
         font-size: 1.3em;
         padding: 10px;
     }
-    .welcome 
-    {
-        background-image: url("../Assets/wlcm.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: scroll;
-        background-size: cover;
-    }
-    .welcome p
-    {
-        font-size: 1.1em;
-        align-items: center;
-        justify-content: center;
-    }
+    .cours
+{
+    margin: 0px;
+    height: 300px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+        background: linear-gradient(rgba(0,0,0,0.77), transparent), url("../Assets/L2_one.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-right: 5px !important;
+    font-size: 1.2em;
+}
 
+.cours p
+{
+    margin: 0px;
+    padding: 10px 15px 5px 15px;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2d4;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.cours center
+{
+    padding: 20px;
+    overflow-y: scroll;
+}
+.cours center::-webkit-scrollbar {
+    width: 7px;
+}
+.cours center::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+    margin-bottom: 4px;
+}
+.cours center::-webkit-scrollbar-thumb {
+    background-color: #112758;
+    border-radius: 10px;
+    border: 1px solid #f2f2d4;
+    }
+::-webkit-scrollbar-track-piece {
+    background: transparent none; 	
+    border: solid 6px transparent; 	
+    border-right-width: 8px; 	
+    margin: 4px;	
+    -webkit-box-shadow: inset 1px 1px 0 0 rgb(255, 255, 255), inset -1px -1px 0 0 rgb(255, 255, 255);
+    }
+.cours p
+{
+align-items: center;
+justify-content: center;
+}
+.cours p .one
+{
+    margin-top: 15px;
+}
 }
