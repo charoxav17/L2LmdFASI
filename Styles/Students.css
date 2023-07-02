@@ -4,14 +4,14 @@ body
     font-size: 1.1em;
     margin: 0px;
     padding: 0px;
-    background-color: #f2f2d4;
+    background-color: #f9f9ea;
 }
 
 
 
 .headie {
     height: 50px;
-    background-color: #f2f2d4;
+    background-color: #f9f9ea;
     display: flex;
     margin: 0px;
 }
@@ -25,10 +25,10 @@ body
     color: #112758;
 } .flag .yellow
 {
-    color: rgb(255, 179, 0);
+    color: #ffb300;
 } .flag .red
 {
-    color: #ae0a0a;
+    color: #bd0f0f;
 }
 
 
@@ -63,13 +63,13 @@ section .navy
     display: inline-block;
     text-decoration: none;
     padding: 20px 30px;
-    color: rgb(255, 179, 0);
+    color: #ffb300;
     font-size: 1.4em;
 }
 .ce_menu
 {
-    color: #ae0a0a !important;
-    background-color: #f2f2d4; 
+    color: #bd0f0f !important;
+    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%); 
     text-decoration: underline #112758 !important; 
     text-decoration-thickness: 3px !important;  
     font-weight: bold;
@@ -79,9 +79,9 @@ section .navy
 {
     text-decoration: underline #112758;
     text-decoration-thickness: 3px;
-    color: rgb(174, 10, 10);
+    color: #bd0f0f;
     font-weight: bold;
-    background: linear-gradient(180deg, #f2f2d4 25%, #112758 100%) ;
+    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%) ;
     transition-duration: 0.67s;
 	transition-property: text-decoration color background-color;
     transition-timing-function: ease-in-out;
@@ -98,7 +98,7 @@ section .navy
     
 } .navy ul li ul a
 {
-    color: #ae0a0a;
+    color: #bd0f0f;
     text-decoration: underline #ffb300;
     text-decoration-thickness: 3px;
     font-weight: bold;
@@ -107,9 +107,9 @@ section .navy
 {
     text-decoration: underline #112758;
     text-decoration-thickness: 3px;
-    color: rgb(174, 10, 10);
+    color: #bd0f0f;
     font-weight: bold;
-    background: linear-gradient(180deg, #f2f2d4 25%, #112758 100%) ;
+    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%) ;
     transition-duration: 0.67s;
 	transition-property: text-decoration color background-color;
     transition-timing-function: ease-in-out; 
@@ -127,6 +127,7 @@ ul li:hover ul
 }
 
 
+
 .us
 {
     margin: 0px;
@@ -141,6 +142,7 @@ ul li:hover ul
     background-attachment: scroll;
     background-size: cover;
     padding-right: 5px !important;
+    padding-bottom: 8px;
     font-size: 1.2em;
 }
 
@@ -150,7 +152,7 @@ ul li:hover ul
     padding: 10px 15px 5px 15px;
     align-items: center;
     justify-content: center;
-    color: #f2f2d4;
+    color: #f9f9ea;
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
@@ -170,7 +172,7 @@ ul li:hover ul
     .us center::-webkit-scrollbar-thumb {
         background-color: #112758;
         border-radius: 10px;
-        border: 1px solid #f2f2d4;
+        border: 1px solid #f9f9ea;
         }
     ::-webkit-scrollbar-track-piece {
         background: transparent none; 	
@@ -192,75 +194,116 @@ ul li:hover ul
 
 
 
-footer
-{
-    padding-inline: 20px;
-    height: auto;
-    text-align: center;
-    background-color: #112758;
-    color: rgb(255, 179, 0);
-    border-top: 2px solid #fff;
-    font-family: 'Rockwell', Georgia, 'Times New Roman', Times, serif;
-}
-
-footer ul li a
-{
-   color: rgb(255, 179, 0); 
-   text-decoration: none;
-}
-footer ul li a:hover
-{
-    text-decoration: underline red;
-    text-decoration-thickness: 3px;
-    transition-duration: 0.37s;
-	transition-property: text-decoration color;
-    transition-timing-function: ease-in-out;
-    color: #f2f2d4;
-}
-
-/*Pour diviser Like I want*/
-footer ul
-{
-    display: grid;
-    grid-template-columns: 1fr 1.3fr 1fr;
-    grid-template-rows: 1;
-    gap: 20px; /*Pour un plus bel espacement*/
-    height: auto;
-    width: auto;
-    padding: 0px;
-    margin: 0px;
-}
-
-footer .menu-con
-{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    list-style-type: none;
-    height: auto;
-    width: auto;
-}
-
-.socialNet
-{
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    list-style-type: none;
-    height: auto;
-    width: auto;
-}
-.copyright
-{
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    height: auto;
-    width: auto;
-}
+    footer
+    {
+        padding-inline: 20px;
+        height: auto;
+        text-align: center;
+        background-color: #112758;
+        color: #ffb300;
+        border-top: 2px solid #fff;
+        font-family: 'Rockwell', Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    footer ul li a
+    {
+       color: #ffb300; 
+       text-decoration: none;
+    }
+    footer ul li a:hover
+    {
+        text-decoration: underline #bd0f0f;
+        text-decoration-thickness: 3px;
+        transition-duration: 0.37s;
+        transition-property: text-decoration color;
+        transition-timing-function: ease-in-out;
+        color: #f9f9ea;
+    }
+    
+    /*Pour diviser like I want...*/
+    footer ul
+    {
+        display: grid;
+        grid-template-columns: 1fr 1.3fr 1fr;
+        grid-template-rows: 2;
+        gap: 20px; /*Pour un plus bel espacement*/
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    footer .menu-con
+    {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        list-style-type: none;
+        height: auto;
+        width: auto;
+    }
+    
+    .socialNet
+    {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        list-style-type: none;
+        height: auto;
+        width: auto;
+    }
+    .copyright
+    {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        height: auto;
+        width: auto;
+        margin-bottom: 0px;
+    }
+    .headie_footer{
+        height: 60px;
+        background-color: #112758;
+        display: flex;
+        margin: 0px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .come_back_on_the_top
+    {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        padding: 5px;
+        background-color: #f9f9ea;
+        border-radius: 15px 15px 0px 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .come_back_on_the_top a
+    {   
+        color: #112758;
+        font-size: 0.7em;
+        text-decoration: none;
+        font-size: 0.8em;
+        padding: 5px;
+        
+    }
+    .come_back_on_the_top a:hover
+    {
+        text-decoration: underline #bd0f0f;
+        text-decoration-thickness: 3px;
+        transition-duration: 0.37s;
+        transition-property: text-decoration;
+        transition-timing-function: ease-in-out;   
+    }
 
 @media screen and (max-width: 780px)
 {
@@ -306,7 +349,7 @@ footer .menu-con
     .us center::-webkit-scrollbar-thumb {
         background-color: #112758;
         border-radius: 10px;
-        border: 1px solid #f2f2d4;
+        border: 1px solid #f9f9ea;
         }
     ::-webkit-scrollbar-track-piece {
         background: transparent none; 	

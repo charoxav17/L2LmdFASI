@@ -4,14 +4,14 @@ body
     font-size: 1.1em;
     margin: 0px;
     padding: 0px;
-    background-color: #f2f2d4;
+    background-color: #f9f9ea;
 }
 
 
 
 .headie {
     height: 50px;
-    background-color: #f2f2d4;
+    background-color: #f9f9ea;
     display: flex;
     margin: 0px;
 }
@@ -25,7 +25,7 @@ body
     color: #112758;
 } .flag .yellow
 {
-    color: rgb(255, 179, 0);
+    color: #ffb300;
 } .flag .red
 {
     color: #ae0a0a;
@@ -63,13 +63,13 @@ section .navy
     display: inline-block;
     text-decoration: none;
     padding: 20px 30px;
-    color: rgb(255, 179, 0);
+    color: #ffb300;
     font-size: 1.4em;
 }
 .ce_menu
 {
     color: #ae0a0a !important;
-    background-color: #f2f2d4; 
+    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%); 
     text-decoration: underline #112758 !important; 
     text-decoration-thickness: 3px !important;  
     font-weight: bold;
@@ -81,7 +81,7 @@ section .navy
     text-decoration-thickness: 3px;
     color: rgb(174, 10, 10);
     font-weight: bold;
-    background: linear-gradient(180deg, #f2f2d4 25%, #112758 100%) ;
+    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%) ;
     transition-duration: 0.67s;
 	transition-property: text-decoration color background-color;
     transition-timing-function: ease-in-out;
@@ -109,7 +109,7 @@ section .navy
     text-decoration-thickness: 3px;
     color: rgb(174, 10, 10);
     font-weight: bold;
-    background: linear-gradient(180deg, #f2f2d4 25%, #112758 100%) ;
+    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%) ;
     transition-duration: 0.67s;
 	transition-property: text-decoration color background-color;
     transition-timing-function: ease-in-out; 
@@ -148,7 +148,7 @@ ul li:hover ul
     padding: 10px;
     align-items: center;
     justify-content: center;
-    color: #f2f2d4;
+    color: #f9f9ea;
     display: flex;
     font-size: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -158,19 +158,180 @@ ul li:hover ul
 
 .goal
 {
-    background-color: #112758;
-    color: #f2f2d4;
-    font-family: 'Times New Roman', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: -40px;
-    border-radius: 30px 30px 0px 0px;
-    height: auto;
-    width: 80vw;
-    justify-content: center;
+    margin: 0px;
+    height: 500px;
     display: flex;
+    justify-content: center;
+    align-items: cemter;
     flex-direction: column;
-    padding: 10px;
+    background-color: #112758;
+    margin-top: -40px;
+    border-radius: 20px 20px 0px 0px;
+    width: 85vw;
+    padding-right: 5px;
+    padding-bottom: 8px;
     font-size: 1.1em;
 }
+
+.goal p
+{
+    margin: 0px;
+    padding: 10px 15px 10px 15px;
+    align-items: center;
+    justify-content: center;
+    color: #f9f9ea;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.goal div
+{
+    padding: 10px 0px 0px 15px;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+.goal div::-webkit-scrollbar {
+    width: 7px;
+}
+.goal div::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+    margin-bottom: 4px;
+}
+.goal div::-webkit-scrollbar-thumb {
+    background-color: #112758;
+    border-radius: 10px;
+    border: 1px solid #f9f9ea;
+    }
+::-webkit-scrollbar-track-piece {
+    background: transparent none; 	
+    border: solid 6px transparent; 	
+    border-right-width: 8px; 	
+    margin: 4px;	
+    -webkit-box-shadow: inset 1px 1px 0 0 rgb(255, 255, 255), inset -1px -1px 0 0 rgb(255, 255, 255);
+    }
+
+    .continue
+    {
+        color: #ffb300;
+        background-color: #112758;
+        margin-top: 10px;
+        padding: 20px;
+        font-size: 1.35em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+    }
+
+
+.plus
+{ 
+    padding: 0px; 
+    font-family: 'Segoe UI Variable Display';
+    display:flex; 
+    font-size: 1em;
+    overflow-x: scroll;
+    flex-direction: row;
+    font-size: 1.1em;
+    background-color: #f9f9ea;
+}
+.plus::-webkit-scrollbar {
+    width: 3px;
+  }
+.plus::-webkit-scrollbar-track {
+    background: rgb(17, 39, 88, 0.8);
+    margin-bottom: 4px;
+  }
+  
+.plus::-webkit-scrollbar-thumb {
+    background-color: #ffb300;
+    border-radius: 20px;
+    border: 3px solid #f9f9ea;
+    }
+  
+  ::-webkit-scrollbar-track-piece {
+      background: transparent none; 	
+      border: solid 6px transparent; 	
+      border-right-width: 8px; 	
+      margin: 4px;
+      /*margin-bottom: 20px;*/ 	
+      -webkit-box-shadow: inset 1px 1px 0 0 rgb(249, 249, 234), inset -1px -1px 0 0 rgb(249, 249, 234);
+  }
+.plus div
+{
+    min-width: 300px;
+    color: #f9f9ea; 
+    margin: 23px; 
+    margin-top: 10px;
+    border-radius: 20px; 
+    padding-inline: 20px; 
+    height: 150px auto;
+    box-shadow: 7px 7px 20px 10px #112758;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI Variable Display';
+}
+.plus div:hover
+{
+    z-index: 3;
+    transition-delay: 0.67s;
+    transition-property: z-index;
+}
+
+.plus h2 a
+{
+    color: #f9f9ea;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-decoration: underline #112758 3px;
+    background-color: #ffb300;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
+.plus h2 a:hover
+{
+    text-decoration: underline #112758;
+    text-decoration-thickness: 3px;
+    color: rgb(174, 10, 10);
+    font-weight: bold;
+    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%) ;
+    transition-duration: 0.67s;
+	transition-property: text-decoration color background-color;
+    transition-timing-function: ease-in-out;
+}
+
+.cours
+{
+    background: linear-gradient(rgba(0,0,0,0.87), transparent), url("../Assets/learn.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.etudiants
+{
+    background: linear-gradient(rgba(0,0,0,0.87), transparent), url("../Assets/L2_two.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.horaire
+{
+    background: linear-gradient(rgba(0,0,0,0.87), transparent), url("../Assets/cal.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.professeurs
+{
+    background: linear-gradient(rgba(0,0,0,0.87), transparent), url("../Assets/prof.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 
 footer
@@ -179,14 +340,14 @@ footer
     height: auto;
     text-align: center;
     background-color: #112758;
-    color: rgb(255, 179, 0);
+    color: #ffb300;
     border-top: 2px solid #fff;
     font-family: 'Rockwell', Georgia, 'Times New Roman', Times, serif;
 }
 
 footer ul li a
 {
-   color: rgb(255, 179, 0); 
+   color: #ffb300; 
    text-decoration: none;
 }
 footer ul li a:hover
@@ -194,17 +355,17 @@ footer ul li a:hover
     text-decoration: underline red;
     text-decoration-thickness: 3px;
     transition-duration: 0.37s;
-	transition-property: text-decoration color;
+    transition-property: text-decoration color;
     transition-timing-function: ease-in-out;
-    color: #f2f2d4;
+    color: #f9f9ea;
 }
 
-/*Pour diviser Like I want*/
+/*Pour diviser like I want...*/
 footer ul
 {
     display: grid;
     grid-template-columns: 1fr 1.3fr 1fr;
-    grid-template-rows: 1;
+    grid-template-rows: 2;
     gap: 20px; /*Pour un plus bel espacement*/
     height: auto;
     width: auto;
@@ -241,6 +402,47 @@ footer .menu-con
     grid-row-end: 1;
     height: auto;
     width: auto;
+    margin-bottom: 0px;
+}
+.headie_footer{
+    height: 60px;
+    background-color: #112758;
+    display: flex;
+    margin: 0px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border-radius: 15px 15px 0px 0px;
+}
+.come_back_on_the_top
+{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 5px;
+    background-color: #f9f9ea;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.come_back_on_the_top a
+{   
+    color: #112758;
+    font-size: 0.7em;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 5px;
+    
+}
+.come_back_on_the_top a:hover
+{
+    text-decoration: underline red;
+    text-decoration-thickness: 3px;
+    transition-duration: 0.37s;
+    transition-property: text-decoration;
+    transition-timing-function: ease-in-out;   
 }
 
 @media screen and (max-width: 780px)
@@ -277,6 +479,10 @@ footer .menu-con
         font-size: 1.1em;
         align-items: center;
         justify-content: center;
+    }
+    .goal
+    {
+        height: 300px;
     }
 
 }
