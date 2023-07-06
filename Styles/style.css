@@ -219,6 +219,7 @@ ul li:hover ul
         font-size: 1.35em;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-weight: bold;
+        border-bottom: 7px dashed #ff0000;
     }
 
 
@@ -237,7 +238,7 @@ ul li:hover ul
     width: 3px;
   }
 .plus::-webkit-scrollbar-track {
-    background: rgb(17, 39, 88, 0.8);
+    background: rgb(17, 39, 88, 0.6);
     margin-bottom: 4px;
   }
   
@@ -256,29 +257,28 @@ ul li:hover ul
       -webkit-box-shadow: inset 1px 1px 0 0 rgb(249, 249, 234), inset -1px -1px 0 0 rgb(249, 249, 234);
   }
 .plus div
-{
-    min-width: 300px;
+{   
+    min-width: 250px;
     color: #f9f9ea; 
     margin: 23px; 
     margin-top: 10px;
     border-radius: 20px; 
-    padding-inline: 20px; 
-    height: 150px auto;
+    padding-inline: 10px; 
+    height: auto;
     box-shadow: 7px 7px 20px 10px #112758;
-    margin-bottom: 30px;
-    font-family: 'Segoe UI Variable Display';
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 0.23s;
 }
 .plus div:hover
 {
-    z-index: 3;
-    transition-delay: 0.67s;
-    transition-property: z-index;
+    transform: scale(1.03);
 }
 
 .plus h2 a
 {
     color: #f9f9ea;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-decoration: none;
     text-decoration: underline #112758 3px;
     background-color: #ffb300;
@@ -341,7 +341,7 @@ footer
     text-align: center;
     background-color: #112758;
     color: #ffb300;
-    border-top: 2px solid #fff;
+    border-top: 5px dashed #ff0000;
     font-family: 'Rockwell', Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -404,17 +404,7 @@ footer .menu-con
     width: auto;
     margin-bottom: 0px;
 }
-.headie_footer{
-    height: 60px;
-    background-color: #112758;
-    display: flex;
-    margin: 0px;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    border-radius: 15px 15px 0px 0px;
-}
+
 .come_back_on_the_top
 {
     grid-column-start: 2;

@@ -164,8 +164,9 @@ ul li:hover ul
     width: 7px;
 }
 .cours center::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0);
-    margin-bottom: 4px;
+    background: rgba(17, 39, 88, 0.5);
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 .cours center::-webkit-scrollbar-thumb {
     background-color: #112758;
@@ -174,9 +175,9 @@ ul li:hover ul
     }
 ::-webkit-scrollbar-track-piece {
     background: transparent none; 	
-    border: solid 6px transparent; 	
-    border-right-width: 8px; 	
-    margin: 4px;	
+    border: solid 2px transparent; 	
+    border-right-width: 2px; 	
+    margin: 1px;	
     -webkit-box-shadow: inset 1px 1px 0 0 rgb(255, 255, 255), inset -1px -1px 0 0 rgb(255, 255, 255);
     }
 .cours p
@@ -197,14 +198,14 @@ table {
   }
   
   td {
-    border: 2px solid #dddddd;
-    text-align: left;
+    border: 2px solid #f9f9ea;
+    text-align: center;
     padding: 8px;
     color: #f9f9ea;
   }
   th
   {
-    border: 2px solid #dddddd;
+    border: 2px solid #f9f9ea;
     text-align: center;
     padding: 8px;
     color: #ffb300;
@@ -217,41 +218,38 @@ table {
 .old_semestry
 {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color: #112758;
     color: #ffb300;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 15px;
-}
-.old_semestry h2
-{
-    font-size: 1.3em;
+    margin-inline: 7px;   
+} .old_semestry h2 {
     font-weight: normal;
+    margin: 0px;
+    padding: 10px;
 }
-.old_semestry h3
+
+.old_semestry p
 {
-    padding-inline: 8px;
-    font-size: 1.2em;
-    font-weight: normal;
-    color: #f9f9ea;
-}
+    text-align: center;
+    margin: 0px;
+} 
 .semestry
 {
     margin-top: 30px;
-    margin-bottom: 0px;
-    font-weight: lighter;
-    padding: 10px;
+    padding: 10px 10px 23px 10px;
     background-color: #112758;
     color: #ffb300;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 15px 15px 0px 0px;
-    font-size: 1.3em;
-    font-weight: normal;     
+    margin-bottom: 0px;   
+    font-weight: normal; 
+    margin-inline: 7px; 
 }
 
 .tab_horaire
 {
-    margin-bottom: 30px;
     background: linear-gradient(rgba(0,0,0,0.9), transparent), url("../Assets/cal.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -261,32 +259,81 @@ table {
 } .day {
     color: #ffb300;
     font-weight: bolder;
+} .pause {
+    font-weight: bold;
+    color: #ffb300;
+    text-align: center;
 }
+.tab {
+    margin-inline: 7px;
+    background-color: #112758;  
+    border: 2px solid #ff0000;  
+} /*Pour le margin-inline des tabs*/
 
 .tab_profs
 {
-
-    margin-bottom: 30px;
+    margin-bottom: 3px;
     background: linear-gradient(rgba(0,0,0,0.77), transparent), url("../Assets/prof.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
     background-size: cover;
     color: #ffb300;
+    margin-top: 0px;
 }
 .profs
 {
-    padding: 0px;
-    margin: 0px;    
-    color: #ffb300;
     background-color: #112758;
+    padding: 5px;
+    margin: 0px;
+    color: #ffb300;
+    font-weight: 500;
 }
 .horaire
+{
+    background-color: #112758;
+    padding: 5px;
+    margin: 0px;
+    color: #ffb300;
+    font-weight: 500;
+} .ass {
+    background: linear-gradient(rgba(0,0,0,0.77), transparent), url("../Assets/explain.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    margin: 0px;
+    padding-top: 5px;
+    border-collapse: collapse;
+}
+.the_ass
 {
     background-color: #112758;
     padding: 0px;
     margin: 0px;
     color: #ffb300;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px;
+} .ass p {
+    color: #f9f9ea;
+    padding: 0px 5px 5px 5px;
+    text-align: center;
+    border: 3px #f9f9ea;
+}
+
+.footie 
+{
+    margin-top: 0px;
+    padding: 10px 10px 23px 10px;
+    background-color: #112758;
+    color: #ff0000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 10px;  
+    margin-inline: 7px; 
 }
 
 
@@ -316,7 +363,6 @@ footer ul li a:hover
     color: #f9f9ea;
 }
 
-/*Pour diviser like I want...*/
 footer ul
 {
     display: grid;
@@ -360,17 +406,7 @@ footer .menu-con
     width: auto;
     margin-bottom: 0px;
 }
-.headie_footer{
-    height: 60px;
-    background-color: #112758;
-    display: flex;
-    margin: 0px;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    border-radius: 15px 15px 0px 0px;
-}
+
 .come_back_on_the_top
 {
     grid-column-start: 2;

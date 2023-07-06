@@ -126,18 +126,74 @@ ul li:hover ul
     margin: 0 auto;
 }
 
-
-
-.welcome
+.adresse
 {
-    height: 100px;
     margin: 0px;
-    padding: 0px;
-    background-image: url("../Assets/wlcm.jpg");
+    padding: 10px;
+}
+.adresse a {
+    margin: 0px;
+    font-size: 1.3em;
+    color: #ffb300;
+} .adresse p {
+    padding-left: 40px;
+} .local {
+    color: rgb(230, 125, 125);
+}
+
+.main
+{
+    display: 0 auto;
+    margin: 0px;
+    padding: 0px 15px 15px 15px;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.9), transparent), url("../Assets/FASI.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    background-size: 100vw;
+    background-size: cover;
+    color: #f9f9ea;
+    font-weight: 700;
+    font-size: 1.1em;
+} .main a {
+    text-decoration: none;
+}
+
+.nous
+{
+    margin: 0px;
+    padding: 10px;
+}
+.nous a {
+    margin: 0px;
+    font-size: 1.3em;
+    color: #ffb300;
+} .nous p {
+    padding-left: 40px;
+} .nous ul {
+    padding-top: 0px;
+    padding-left: 80px;
+}
+.nous ul li {
+    list-style-type: none;
+}
+
+.SocialNet
+{
+    margin: 0px;
+    padding: 10px;
+}
+.SocialNet h2 {
+    margin: 0px;
+    font-size: 1.3em;
+    color: #ffb300;
+}
+.socialNet p {
+    padding-right: 40px;
+}
+.SocialNet a {
+    color: #f9f9ea;
+    text-decoration: underline #ffb300;
 }
 
 
@@ -213,17 +269,7 @@ footer .menu-con
     width: auto;
     margin-bottom: 0px;
 }
-.headie_footer{
-    height: 60px;
-    background-color: #112758;
-    display: flex;
-    margin: 0px;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    border-radius: 15px 15px 0px 0px;
-}
+
 .come_back_on_the_top
 {
     grid-column-start: 2;

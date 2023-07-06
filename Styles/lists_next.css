@@ -127,160 +127,127 @@ ul li:hover ul
 }
 
 
-
-.us
-{
-    margin: 0px;
-    height: 300px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.77), transparent), url("../Assets/L2_two.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-    background-size: cover;
-    padding-right: 5px !important;
-    padding-bottom: 8px;
-    font-size: 1.2em;
-}
-
-.us p
-{
-    margin: 0px;
-    padding: 10px 15px 5px 15px;
-    align-items: center;
-    justify-content: center;
-    color: #f9f9ea;
-    display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-}
-    .us center
-    {
-        padding:20px;
-        overflow-y: scroll;
-    }
-    .us center::-webkit-scrollbar {
-        width: 7px;
-    }
-    .us center::-webkit-scrollbar-track {
-        background: rgba(17, 39, 88, 0.5);
-        margin-bottom: 0px;
-        margin-top: 10px;
-    }
-    .us center::-webkit-scrollbar-thumb {
-        background-color: #112758;
-        border-radius: 10px;
-        border: 1px solid #f9f9ea;
-        }
-    ::-webkit-scrollbar-track-piece {
-        background: transparent none; 	
-        border: solid 2px transparent; 	
-        border-right-width: 8px; 	
-        margin: 1px;	
-        -webkit-box-shadow: inset 1px 1px 0 0 rgb(255, 255, 255), inset -1px -1px 0 0 rgb(255, 255, 255);
-        }
-    .us p
-    {
-    align-items: center;
-    justify-content: center;
-    }
-    .us p .one
-    {
-        margin-top: 15px;
-    }
-
-.MVPs {
-    background: linear-gradient(rgba(0,0,0,0.77), transparent), url("../Assets/FASI.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-    background-size: cover;
-    margin-top: 0px;
-    margin-bottom: 7px;
-    margin-inline: 7px;
-    border-radius: 15px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    color: #f9f9ea;
-} .MVPs h2 {
-    font-size: 1.3em;
-    color: #ffb300;
+.bio {
+    background-color: rgb(17, 39, 88, 0);
+    height: auto;
     padding: 10px;
-    margin-bottom: 0px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 7px;
-} .MVPs h4 {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    margin-top: 0px;
-} .MVPs .h5 {
-    font-size: 0.7em;
-} .MVPs dd {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    list-style: none;
-} 
-
-.notables {
-    background: linear-gradient(rgba(0,0,0,0.77), transparent), url("../Assets/notables.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-    background-size: cover;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-inline: 7px;
+    margin-inline: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
     border-radius: 15px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    color: #f9f9ea;
-} .notables h2 {
-    font-size: 1.3em;
-    color: #ffb300;
-    padding: 10px;
-    margin-bottom: 0px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 7px;
-} .notables h4 {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    margin-top: 0px;
-} .notables .h5 {
-    font-size: 0.7em;
-} .notables dd {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    list-style: none;
-    margin-bottom: 15px;
-} 
-
-.students {
-    background-color: #112758;
-    box-shadow: 3px 3px 13px 3px #ff0000;
     margin-top: 20px;
-    margin-bottom: 20px;
-    margin-inline: 21px;
-    border-radius: 15px;
-    padding-top: 5px;
-    padding-inline: 10px;
-    color: #ff0000;
-    font-weight: 600;
-    font-size: 1.3em;
-} .students p {
-    margin: 0px;
-} .students button {
-    height: 50px;
-    width: 200px;
-    margin: 5px;
-    background: #f9f9ea;
-    color: #ffb300;
-    border-radius: 15px/10px;
-    font-weight: 600;
-    font-size: 1em;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 50px 10px #112758;
+    padding-bottom: 20px;
 }
+.pics_students {
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.autobio {
+    color: #f9f9ea;
+    font-family: 'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-weight: 550;
+    height: 300px;
+    width: auto;
+    overflow-y: scroll;
+    word-wrap: break-word;
+} .autobio::-webkit-scrollbar {
+    width: 7px;
+}
+.autobio::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+    margin-bottom: 4px;
+}
+.autobio::-webkit-scrollbar-thumb {
+    background-color: #ffb300;
+    border-radius: 10px;
+    border: 1px solid #f9f9ea;
+    }
+::-webkit-scrollbar-track-piece {
+    background: transparent none; 	
+    border: solid 6px transparent; 	
+    border-right-width: 8px; 	
+    margin: 4px;	
+    -webkit-box-shadow: inset 1px 1px 0 0 rgb(255, 255, 255), inset -1px -1px 0 0 rgb(255, 255, 255);
+    } 
+    .autobio .h3 {
+    font-size: 1.2em;
+    color: #ffb300;
+    text-decoration: underline 2.5px red;
+}
+
+.et1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-color: #112758;
+    border-radius: 20px;
+    margin-inline: 5px;
+    margin-top: 5px;
+    box-shadow: 3px 3px 3px 5px #112758;
+    background: rgb(17, 39, 88, 0.87);
+    transition: transform 0.23s;
+}
+.et2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    background-color: #112758;
+    border-radius: 20px; 
+    margin-inline: 5px;
+    margin-top: 5px;
+    box-shadow: 3px 3px 3px 5px #112758;
+    background: rgb(17, 39, 88, 0.87); 
+    transition: transform 0.23s;
+}
+.et {
+    grid-column-start: auto;
+    grid-column-end: auto;
+    background-color: #112758;
+    border-radius: 20px; 
+    margin-inline: 5px;
+    margin-top: 5px;
+    box-shadow: 3px 3px 3px 5px #112758; 
+    background: rgb(17, 39, 88, 0.87); 
+    transition: transform 0.23s;
+} 
+.et1:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 10px 5px #ff0000;
+}
+.et2:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 10px 5px #ff0000;
+}
+.et:hover {
+    transform: scale(1.02);  
+    box-shadow: 3px 3px 10px 5px #ff0000;  
+}
+.scroll_x {
+    padding: 10px;
+    background-color: rgba(255, 179, 0, 0.8);
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 10px 5px #112758;
+    font-weight: 700;
+    color: #112758;
+} .scroll_x a {
+    color: #ff0000;
+    text-decoration: underline 3px #f9f9ea;
+}
+.scroll_x a:hover {
+    color: #f9f9ea;
+    text-decoration: underline 3px red;
+}
+
+
+
 
     footer
     {
@@ -451,4 +418,51 @@ ul li:hover ul
         font-size: 1.3em;
         padding: 10px;
     }
+    .bio {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+        padding-inline: 25px;
+        margin-inline: 20px;
+    }
+
+    .pics_students {
+        height: 180px;
+        width: 130px;
+        border-radius: 20px;
+        float: left;
+        padding-right: 10px;
+        padding-bottom: 5px;
+    } .autobio {
+        margin: 0px;
+        word-wrap: break-word;
+    } .autobio .h3 {
+        font-size: 1.3em;
+        color: #ffb300;
+        text-decoration: underline #ff0000;
+        word-wrap: break-word;
+    }
+
+    .et1 {
+        height: auto;
+        width: auto;
+        padding: 10px;
+        box-shadow: 5px 5px 10px 5px #112758;
+        margin-bottom: 15px;
+    }
+    .et2 {
+        height: auto;
+        width: auto;
+        padding: 10px;
+        box-shadow: 5px 5px 10px 5px #112758;
+        margin-bottom: 15px;
+    }
+    .et {
+        height: auto;
+        width: auto;
+        padding: 10px;
+        box-shadow: 5px 5px 10px 5px #112758;
+        margin-bottom: 15px;
+    }
+
 }
