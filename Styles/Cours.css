@@ -4,14 +4,16 @@ body
     font-size: 1.1em;
     margin: 0px;
     padding: 0px;
-    background-color: #f9f9ea;
+    background-color: #002458;
+    display: flex;
+    flex-direction: column;
 }
 
 
 
 .headie {
     height: 50px;
-    background-color: #f9f9ea;
+    background-color: #002458;
     display: flex;
     margin: 0px;
 }
@@ -22,26 +24,26 @@ body
     float: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 3px 10px 10px 10px;
-    color: #112758;
+    color: #f9f9ea;
 } .flag .yellow
 {
     color: #ffb300;
 } .flag .red
 {
-    color: #ae0a0a;
+    color: #d30c0c;
 }
 
 
 .headie img 
 {
     padding: 5px;
-    background-color: #112758;
+    background-color: #f9f9ea;
 }
 
 section .navy
 {
     width: 100%;
-    background-color: #112758;
+    background-color: #f9f9ea;
     min-height: auto;
 }
 
@@ -49,7 +51,7 @@ section .navy
 {
     margin: 0px;
     padding: 0px;
-    background-color: #112758;
+    background-color: #f9f9ea;
 }
 
 .navy li
@@ -65,25 +67,21 @@ section .navy
     padding: 20px 30px;
     color: #ffb300;
     font-size: 1.4em;
+    font-weight: bold;
 }
 .ce_menu
 {
-    color: #ae0a0a !important;
-    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%); 
-    text-decoration: underline #112758 !important; 
-    text-decoration-thickness: 3px !important;  
+    color: #d30c0c !important; 
+    text-decoration: underline 3px #002458 !important;  
     font-weight: bold;
 }
 
 .navy a:hover
 {
-    text-decoration: underline #112758;
-    text-decoration-thickness: 3px;
-    color: rgb(174, 10, 10);
-    font-weight: bold;
-    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%);
+    text-decoration: underline 3px #002458;
+    color: #d30c0c;
     transition-duration: 0.67s;
-	transition-property: text-decoration color background-color;
+	transition-property: text-decoration color;
     transition-timing-function: ease-in-out;
 }
 .navy ul li {
@@ -98,20 +96,17 @@ section .navy
     
 } .navy ul li ul a
 {
-    color: #ae0a0a;
-    text-decoration: underline #ffb300;
-    text-decoration-thickness: 3px;
+    color: #ffb300;
+    text-decoration: underline 3px #002458;
     font-weight: bold;
 }
 .navy ul li ul li:hover
 {
-    text-decoration: underline #112758;
-    text-decoration-thickness: 3px;
-    color: rgb(174, 10, 10);
+    text-decoration: underline 3px #f9f9ea;
+    color: #d30c0c;
     font-weight: bold;
-    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%) ;
     transition-duration: 0.67s;
-	transition-property: text-decoration color background-color;
+	transition-property: text-decoration color;
     transition-timing-function: ease-in-out; 
 }
 ul li:hover ul
@@ -169,14 +164,14 @@ ul li:hover ul
     margin-top: 10px;
 }
 .cours center::-webkit-scrollbar-thumb {
-    background-color: #112758;
+    background-color: #f9f9ea;
     border-radius: 10px;
-    border: 1px solid #f9f9ea;
+    border: 1px solid #002458;
     }
 ::-webkit-scrollbar-track-piece {
     background: transparent none; 	
     border: solid 2px transparent; 	
-    border-right-width: 2px; 	
+    border-right-width: 8px; 	
     margin: 1px;	
     -webkit-box-shadow: inset 1px 1px 0 0 rgb(255, 255, 255), inset -1px -1px 0 0 rgb(255, 255, 255);
     }
@@ -195,13 +190,16 @@ table {
     font-family: 'Segoe UI', arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    table-layout: auto;
   }
   
   td {
-    border: 2px solid #f9f9ea;
     text-align: center;
+    border: 2px solid #f9f9ea;
     padding: 8px;
     color: #f9f9ea;
+    white-space: normal;
+    word-wrap: break-word;
   }
   th
   {
@@ -209,42 +207,25 @@ table {
     text-align: center;
     padding: 8px;
     color: #ffb300;
+    word-wrap: break-word;
   }
   
   /*tr:nth-child(even) {
     background-color: #f9f9ea;
   }*/
 
-.old_semestry
-{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    background-color: #112758;
-    color: #ffb300;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-radius: 15px;
-    margin-inline: 7px;   
-} .old_semestry h2 {
-    font-weight: normal;
-    margin: 0px;
-    padding: 10px;
-}
 
-.old_semestry p
-{
-    text-align: center;
-    margin: 0px;
-} 
 .semestry
 {
     margin-top: 30px;
-    padding: 10px 10px 23px 10px;
-    background-color: #112758;
-    color: #ffb300;
+    padding: 10px 10px 20px 10px;
+    background-color: #f9f9ea;
+    color: #d30c0c;
+    text-decoration: underline 2.5px #002458;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 15px 15px 0px 0px;
     margin-bottom: 0px;   
-    font-weight: normal; 
+    font-weight: 600; 
     margin-inline: 7px; 
 }
 
@@ -256,6 +237,7 @@ table {
     background-attachment: scroll;
     background-size: cover;
     color: #ffb300;
+    width: 100%;
 } .day {
     color: #ffb300;
     font-weight: bolder;
@@ -266,8 +248,8 @@ table {
 }
 .tab {
     margin-inline: 7px;
-    background-color: #112758;  
-    border: 2px solid #ff0000;  
+    background-color: #002458;  
+    border: 2px solid #d30c0c;  
 } /*Pour le margin-inline des tabs*/
 
 .tab_profs
@@ -283,7 +265,7 @@ table {
 }
 .profs
 {
-    background-color: #112758;
+    background-color: #f9f9ea;
     padding: 5px;
     margin: 0px;
     color: #ffb300;
@@ -291,7 +273,7 @@ table {
 }
 .horaire
 {
-    background-color: #112758;
+    background-color: #f9f9ea;
     padding: 5px;
     margin: 0px;
     color: #ffb300;
@@ -305,10 +287,12 @@ table {
     margin: 0px;
     padding-top: 5px;
     border-collapse: collapse;
+} .ass td {
+    width: 100vh;
 }
 .the_ass
 {
-    background-color: #112758;
+    background-color: #f9f9ea;
     padding: 0px;
     margin: 0px;
     color: #ffb300;
@@ -322,12 +306,15 @@ table {
     border: 3px #f9f9ea;
 }
 
+
+
+
 .footie 
 {
     margin-top: 0px;
-    padding: 10px 10px 23px 10px;
-    background-color: #112758;
-    color: #ff0000;
+    padding: 10px 10px 20px 10px;
+    background-color: #f9f9ea;
+    color: #d30c0c;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 0px 0px 15px 15px;
     font-size: 1em;
@@ -339,18 +326,19 @@ table {
 
 footer
 {
+    margin-top: 20px;
     padding-inline: 20px;
     height: auto;
     text-align: center;
-    background-color: #112758;
-    color: #ffb300;
-    border-top: 2px solid #fff;
+    background-color: #f9f9ea;
+    color: #002458;
+    border-top: 10px double #d30c0c;
     font-family: 'Rockwell', Georgia, 'Times New Roman', Times, serif;
 }
 
 footer ul li a
 {
-   color: #ffb300; 
+   color: #002458; 
    text-decoration: none;
 }
 footer ul li a:hover
@@ -360,7 +348,7 @@ footer ul li a:hover
     transition-duration: 0.37s;
     transition-property: text-decoration color;
     transition-timing-function: ease-in-out;
-    color: #f9f9ea;
+    color: #002458;
 }
 
 footer ul
@@ -368,7 +356,7 @@ footer ul
     display: grid;
     grid-template-columns: 1fr 1.3fr 1fr;
     grid-template-rows: 2;
-    gap: 20px; /*Pour un plus bel espacement*/
+    gap: 20px;
     height: auto;
     width: auto;
     padding: 0px;
@@ -414,14 +402,14 @@ footer .menu-con
     grid-row-start: 2;
     grid-row-end: 2;
     padding: 5px;
-    background-color: #f9f9ea;
+    background-color: #002458;
     border-radius: 15px 15px 0px 0px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .come_back_on_the_top a
 {   
-    color: #112758;
+    color: #f9f9ea;
     font-size: 0.7em;
     text-decoration: none;
     font-size: 0.8em;
@@ -436,7 +424,6 @@ footer .menu-con
     transition-property: text-decoration;
     transition-timing-function: ease-in-out;   
 }
-
 
 @media screen and (max-width: 780px)
 {
@@ -499,13 +486,13 @@ footer .menu-con
     width: 7px;
 }
 .cours center::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0);
+    background: transparent none;
     margin-bottom: 4px;
 }
 .cours center::-webkit-scrollbar-thumb {
-    background-color: #112758;
+    background-color: #f9f9ea;
     border-radius: 10px;
-    border: 1px solid #f9f9ea;
+    border: 1px solid #002458;
     }
 ::-webkit-scrollbar-track-piece {
     background: transparent none; 	
@@ -523,4 +510,31 @@ justify-content: center;
 {
     margin-top: 15px;
 }
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        max-width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+    table::-webkit-scrollbar {
+        width: 5px;
+    }
+    table::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0);
+        margin-bottom: 4px;
+    }
+    table::-webkit-scrollbar-thumb {
+        background-color: #002458;
+        border-radius: 10px;
+        border: 1px solid #f9f9ea;
+        }
+    ::-webkit-scrollbar-track-piece {
+        background: transparent none; 	
+        border: solid 6px transparent; 	
+        border-right-width: 8px; 	
+        margin: 4px;	
+        -webkit-box-shadow: inset 1px 1px 0 0 rgb(255, 255, 255), inset -1px -1px 0 0 rgb(255, 255, 255);
+        }
 }

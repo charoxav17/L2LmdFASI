@@ -4,14 +4,14 @@ body
     font-size: 1.1em;
     margin: 0px;
     padding: 0px;
-    background-color: #f9f9ea;
+    background-color: #002458;
 }
 
 
 
 .headie {
     height: 50px;
-    background-color: #f9f9ea;
+    background-color: #002458;
     display: flex;
     margin: 0px;
 }
@@ -22,26 +22,26 @@ body
     float: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 3px 10px 10px 10px;
-    color: #112758;
+    color: #f9f9ea;
 } .flag .yellow
 {
     color: #ffb300;
 } .flag .red
 {
-    color: #ae0a0a;
+    color: #d30c0c;
 }
 
 
 .headie img 
 {
     padding: 5px;
-    background-color: #112758;
+    background-color: #f9f9ea;
 }
 
 section .navy
 {
     width: 100%;
-    background-color: #112758;
+    background-color: #f9f9ea;
     min-height: auto;
 }
 
@@ -49,7 +49,7 @@ section .navy
 {
     margin: 0px;
     padding: 0px;
-    background-color: #112758;
+    background-color: #f9f9ea;
 }
 
 .navy li
@@ -65,25 +65,21 @@ section .navy
     padding: 20px 30px;
     color: #ffb300;
     font-size: 1.4em;
+    font-weight: bold;
 }
 .ce_menu
 {
-    color: #ae0a0a !important;
-    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%); 
-    text-decoration: underline #112758 !important; 
-    text-decoration-thickness: 3px !important;  
+    color: #d30c0c !important; 
+    text-decoration: underline 3px #002458 !important;  
     font-weight: bold;
 }
 
 .navy a:hover
 {
-    text-decoration: underline #112758;
-    text-decoration-thickness: 3px;
-    color: rgb(174, 10, 10);
-    font-weight: bold;
-    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%) ;
+    text-decoration: underline 3px #002458;
+    color: #d30c0c;
     transition-duration: 0.67s;
-	transition-property: text-decoration color background-color;
+	transition-property: text-decoration color;
     transition-timing-function: ease-in-out;
 }
 .navy ul li {
@@ -98,20 +94,17 @@ section .navy
     
 } .navy ul li ul a
 {
-    color: #ae0a0a;
-    text-decoration: underline #ffb300;
-    text-decoration-thickness: 3px;
+    color: #ffb300;
+    text-decoration: underline 3px #002458;
     font-weight: bold;
 }
 .navy ul li ul li:hover
 {
-    text-decoration: underline #112758;
-    text-decoration-thickness: 3px;
-    color: rgb(174, 10, 10);
+    text-decoration: underline 3px #f9f9ea;
+    color: #d30c0c;
     font-weight: bold;
-    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%) ;
     transition-duration: 0.67s;
-	transition-property: text-decoration color background-color;
+	transition-property: text-decoration color;
     transition-timing-function: ease-in-out; 
 }
 ul li:hover ul
@@ -144,7 +137,7 @@ ul li:hover ul
 
 .welcome p
 {
-    margin: 0px;
+    margin-bottom: 80px;
     padding: 10px;
     align-items: center;
     justify-content: center;
@@ -164,7 +157,7 @@ ul li:hover ul
     justify-content: center;
     align-items: cemter;
     flex-direction: column;
-    background-color: #112758;
+    background-color: #f9f9ea;
     margin-top: -40px;
     border-radius: 20px 20px 0px 0px;
     width: 85vw;
@@ -179,14 +172,14 @@ ul li:hover ul
     padding: 10px 15px 10px 15px;
     align-items: center;
     justify-content: center;
-    color: #f9f9ea;
+    color: #002458;
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
 }
 .goal div
 {
-    padding: 10px 0px 0px 15px;
+    padding: 0px 0px 0px 15px;
     margin-top: 10px;
     overflow-y: scroll;
 }
@@ -198,12 +191,12 @@ ul li:hover ul
     margin-bottom: 4px;
 }
 .goal div::-webkit-scrollbar-thumb {
-    background-color: #112758;
+    background-color: #002458;
     border-radius: 10px;
-    border: 1px solid #f9f9ea;
+    border: 1px solid #002458;
     }
 ::-webkit-scrollbar-track-piece {
-    background: transparent none; 	
+    background: #002458; 	
     border: solid 6px transparent; 	
     border-right-width: 8px; 	
     margin: 4px;	
@@ -212,14 +205,14 @@ ul li:hover ul
 
     .continue
     {
-        color: #ffb300;
-        background-color: #112758;
+        color: #a90a0a;
+        background-color: #f9f9ea;
         margin-top: 10px;
         padding: 20px;
         font-size: 1.35em;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-weight: bold;
-        border-bottom: 7px dashed #ff0000;
+        border-bottom: 5px solid #ffb300;
     }
 
 
@@ -232,7 +225,7 @@ ul li:hover ul
     overflow-x: scroll;
     flex-direction: row;
     font-size: 1.1em;
-    background-color: #f9f9ea;
+    background-color: #002458;
 }
 .plus::-webkit-scrollbar {
     width: 3px;
@@ -243,9 +236,9 @@ ul li:hover ul
   }
   
 .plus::-webkit-scrollbar-thumb {
-    background-color: #ffb300;
+    background-color: #f9f9ea;
     border-radius: 20px;
-    border: 3px solid #f9f9ea;
+    border: 3px solid #002458;
     }
   
   ::-webkit-scrollbar-track-piece {
@@ -253,8 +246,7 @@ ul li:hover ul
       border: solid 6px transparent; 	
       border-right-width: 8px; 	
       margin: 4px;
-      /*margin-bottom: 20px;*/ 	
-      -webkit-box-shadow: inset 1px 1px 0 0 rgb(249, 249, 234), inset -1px -1px 0 0 rgb(249, 249, 234);
+      -webkit-box-shadow: inset 1px 1px 0 0 #ffb300, inset -1px -1px 0 0 #ffb300;
   }
 .plus div
 {   
@@ -265,7 +257,6 @@ ul li:hover ul
     border-radius: 20px; 
     padding-inline: 10px; 
     height: auto;
-    box-shadow: 7px 7px 20px 10px #112758;
     margin-bottom: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: transform 0.23s;
@@ -277,24 +268,24 @@ ul li:hover ul
 
 .plus h2 a
 {
-    color: #f9f9ea;
-    font-size: 1.1em;
+    color: #d30c0c;
+    font-size: 1em;
     text-decoration: none;
-    text-decoration: underline #112758 3px;
     background-color: #ffb300;
     border-radius: 20px;
     padding: 10px;
     font-weight: 600;
+    text-decoration: underline 2px #002458;
+    background-color: #f9f9ea;
 }
 .plus h2 a:hover
 {
-    text-decoration: underline #112758;
-    text-decoration-thickness: 3px;
-    color: rgb(174, 10, 10);
+    text-decoration: underline 3px #002458;
+    background-color: #f9f9ea;
+    color: #d30c0c;
     font-weight: bold;
-    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%) ;
-    transition-duration: 0.67s;
-	transition-property: text-decoration color background-color;
+    transition-duration: 0.47s;
+	transition-property: text-decoration background-color;
     transition-timing-function: ease-in-out;
 }
 
@@ -339,34 +330,32 @@ footer
     padding-inline: 20px;
     height: auto;
     text-align: center;
-    background-color: #112758;
-    color: #ffb300;
-    border-top: 5px dashed #ff0000;
+    background-color: #f9f9ea;
+    color: #002458;
+    border-top: 10px double #d30c0c;
     font-family: 'Rockwell', Georgia, 'Times New Roman', Times, serif;
 }
 
 footer ul li a
 {
-   color: #ffb300; 
+   color: #002458; 
    text-decoration: none;
 }
 footer ul li a:hover
 {
-    text-decoration: underline red;
-    text-decoration-thickness: 3px;
+    text-decoration: underline 3px #d30c0c;
     transition-duration: 0.37s;
     transition-property: text-decoration color;
     transition-timing-function: ease-in-out;
-    color: #f9f9ea;
+    color: #002458;
 }
 
-/*Pour diviser like I want...*/
 footer ul
 {
     display: grid;
     grid-template-columns: 1fr 1.3fr 1fr;
     grid-template-rows: 2;
-    gap: 20px; /*Pour un plus bel espacement*/
+    gap: 20px; 
     height: auto;
     width: auto;
     padding: 0px;
@@ -412,14 +401,14 @@ footer .menu-con
     grid-row-start: 2;
     grid-row-end: 2;
     padding: 5px;
-    background-color: #f9f9ea;
+    background-color: #002458;
     border-radius: 15px 15px 0px 0px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .come_back_on_the_top a
 {   
-    color: #112758;
+    color: #f9f9ea;
     font-size: 0.7em;
     text-decoration: none;
     font-size: 0.8em;
@@ -428,8 +417,7 @@ footer .menu-con
 }
 .come_back_on_the_top a:hover
 {
-    text-decoration: underline red;
-    text-decoration-thickness: 3px;
+    text-decoration: underline 3px #d30c0c;
     transition-duration: 0.37s;
     transition-property: text-decoration;
     transition-timing-function: ease-in-out;   

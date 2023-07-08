@@ -4,14 +4,14 @@ body
     font-size: 1.1em;
     margin: 0px;
     padding: 0px;
-    background-color: #f9f9ea;
+    background-color: #002458;
 }
 
 
 
 .headie {
     height: 50px;
-    background-color: #f9f9ea;
+    background-color: #002458;
     display: flex;
     margin: 0px;
 }
@@ -22,26 +22,26 @@ body
     float: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 3px 10px 10px 10px;
-    color: #112758;
+    color: #f9f9ea;
 } .flag .yellow
 {
     color: #ffb300;
 } .flag .red
 {
-    color: #bd0f0f;
+    color: #d30c0c;
 }
 
 
 .headie img 
 {
     padding: 5px;
-    background-color: #112758;
+    background-color: #f9f9ea;
 }
 
 section .navy
 {
     width: 100%;
-    background-color: #112758;
+    background-color: #f9f9ea;
     min-height: auto;
 }
 
@@ -49,7 +49,7 @@ section .navy
 {
     margin: 0px;
     padding: 0px;
-    background-color: #112758;
+    background-color: #f9f9ea;
 }
 
 .navy li
@@ -65,25 +65,21 @@ section .navy
     padding: 20px 30px;
     color: #ffb300;
     font-size: 1.4em;
+    font-weight: bold;
 }
 .ce_menu
 {
-    color: #bd0f0f !important;
-    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%); 
-    text-decoration: underline #112758 !important; 
-    text-decoration-thickness: 3px !important;  
+    color: #d30c0c !important; 
+    text-decoration: underline 3px #002458 !important;  
     font-weight: bold;
 }
 
 .navy a:hover
 {
-    text-decoration: underline #112758;
-    text-decoration-thickness: 3px;
-    color: #bd0f0f;
-    font-weight: bold;
-    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%) ;
+    text-decoration: underline 3px #002458;
+    color: #d30c0c;
     transition-duration: 0.67s;
-	transition-property: text-decoration color background-color;
+	transition-property: text-decoration color;
     transition-timing-function: ease-in-out;
 }
 .navy ul li {
@@ -98,20 +94,17 @@ section .navy
     
 } .navy ul li ul a
 {
-    color: #bd0f0f;
-    text-decoration: underline #ffb300;
-    text-decoration-thickness: 3px;
+    color: #ffb300;
+    text-decoration: underline 3px #002458;
     font-weight: bold;
 }
 .navy ul li ul li:hover
 {
-    text-decoration: underline #112758;
-    text-decoration-thickness: 3px;
-    color: #bd0f0f;
+    text-decoration: underline 3px #f9f9ea;
+    color: #d30c0c;
     font-weight: bold;
-    background: linear-gradient(180deg, #f9f9ea 25%, #112758 100%) ;
     transition-duration: 0.67s;
-	transition-property: text-decoration color background-color;
+	transition-property: text-decoration color;
     transition-timing-function: ease-in-out; 
 }
 ul li:hover ul
@@ -129,7 +122,7 @@ ul li:hover ul
 .adresse
 {
     margin: 0px;
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
 }
 .adresse a {
     margin: 0px;
@@ -138,7 +131,7 @@ ul li:hover ul
 } .adresse p {
     padding-left: 40px;
 } .local {
-    color: rgb(230, 125, 125);
+    color: #f35c5c;
 }
 
 .main
@@ -192,7 +185,7 @@ ul li:hover ul
     padding-right: 40px;
 }
 .SocialNet a {
-    color: #f9f9ea;
+    color: #f35c5c;
     text-decoration: underline #ffb300;
 }
 
@@ -204,34 +197,32 @@ footer
     padding-inline: 20px;
     height: auto;
     text-align: center;
-    background-color: #112758;
-    color: #ffb300;
-    border-top: 2px solid #fff;
+    background-color: #f9f9ea;
+    color: #002458;
+    border-top: 10px double #d30c0c;
     font-family: 'Rockwell', Georgia, 'Times New Roman', Times, serif;
 }
 
 footer ul li a
 {
-   color: #ffb300; 
+   color: #002458; 
    text-decoration: none;
 }
 footer ul li a:hover
 {
-    text-decoration: underline #bd0f0f;
-    text-decoration-thickness: 3px;
+    text-decoration: underline 3px #d30c0c;
     transition-duration: 0.37s;
     transition-property: text-decoration color;
     transition-timing-function: ease-in-out;
-    color: #f9f9ea;
+    color: #002458;
 }
 
-/*Pour diviser like I want...*/
 footer ul
 {
     display: grid;
     grid-template-columns: 1fr 1.3fr 1fr;
     grid-template-rows: 2;
-    gap: 20px; /*Pour un plus bel espacement*/
+    gap: 20px; 
     height: auto;
     width: auto;
     padding: 0px;
@@ -259,6 +250,9 @@ footer .menu-con
     height: auto;
     width: auto;
 }
+.socialNet p {
+    padding: 0px;
+}
 .copyright
 {
     grid-column-start: 2;
@@ -277,14 +271,14 @@ footer .menu-con
     grid-row-start: 2;
     grid-row-end: 2;
     padding: 5px;
-    background-color: #f9f9ea;
+    background-color: #002458;
     border-radius: 15px 15px 0px 0px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .come_back_on_the_top a
 {   
-    color: #112758;
+    color: #f9f9ea;
     font-size: 0.7em;
     text-decoration: none;
     font-size: 0.8em;
@@ -293,12 +287,12 @@ footer .menu-con
 }
 .come_back_on_the_top a:hover
 {
-    text-decoration: underline #bd0f0f;
-    text-decoration-thickness: 3px;
+    text-decoration: underline 3px #d30c0c;
     transition-duration: 0.37s;
     transition-property: text-decoration;
     transition-timing-function: ease-in-out;   
 }
+
 
 
 
